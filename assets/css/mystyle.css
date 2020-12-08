@@ -1,0 +1,91 @@
+.growl-notification--image {
+    width: auto !important;
+}
+
+.growl-notification {
+    height: auto !important;
+} 
+
+.growl-notification__body {
+    padding: 5px 30px;
+}
+
+
+.ladi-headline {
+    animation-name: tada;
+    -webkit-animation-name: tada;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.ladi-headline {
+    color: rgb(235, 102, 151);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+.ladi-headline {
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+}
+
+@keyframes tada {
+ 0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+10%, 20% {
+    -webkit-transform: scale(.9) rotate(-3deg);
+    -ms-transform: scale(.9) rotate(-3deg);
+    transform: scale(.9) rotate(-3deg);
+}
+30%, 50%, 70%, 90% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+}
+40%, 60%, 80% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    -ms-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+}
+100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+}
+}
+
+.slider-single {
+	box-shadow: none !important;
+	border: none !important;
+}
+
+
+label.error {
+    color: #f04124;
+    display: none !important;
+}
+
+.error { 
+	border: 1px solid red !important;
+}
+
+.form-control .error{
+	border-color: red !important;
+	border: 1px solid red !important;
+}
+
+.form-control .error:focus{
+	box-shadow: 0 0 0 0.2rem rgba(255,0,0,.25) !important;
+}
+
+.growl-notification--warning:before {
+    background: transparent !important;
+}
